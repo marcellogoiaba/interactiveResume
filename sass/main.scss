@@ -14,10 +14,7 @@ html, body{
 	overflow: hidden;
 	animation: FadeIn 4s;
 }
-@keyframes FadeIn{
-	from { opacity: 0; }
-	to { opacity: 1; }
-}
+
 #background-wrap{
 	height: 90vh;
 }

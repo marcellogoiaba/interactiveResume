@@ -1,33 +1,38 @@
 @-webkit-keyframes animateCloud {
   0% {
-    margin-left: -600px; }
+    margin-left: -300px; }
   100% {
-    margin-left: 100%; } }
+    margin-left: 120vw; } }
 @-moz-keyframes animateCloud {
   0% {
-    margin-left: -600px; }
+    margin-left: -300px; }
   100% {
-    margin-left: 100%; } }
+    margin-left: 120vw; } }
 @keyframes animateCloud {
   0% {
-    margin-left: -600px; }
+    margin-left: -300px; }
   100% {
-    margin-left: 100%; } }
+    margin-left: 120vw; } }
 @-webkit-keyframes reversesAnimateCloud {
   0% {
-    margin-left: 1920px; }
+    margin-left: 100vw; }
   100% {
-    margin-left: -40%; } }
+    margin-left: -100vw; } }
 @-moz-keyframes reverseAnimateCloud {
   0% {
-    margin-left: 1920px; }
+    margin-left: 100vw; }
   100% {
-    margin-left: -40%; } }
+    margin-left: -100vw; } }
 @keyframes reverseAnimateCloud {
   0% {
-    margin-left: 1920px; }
+    margin-left: 100vw; }
   100% {
-    margin-left: -40%; } }
+    margin-left: -100vw; } }
+@keyframes FadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 /* ANIMATIONS */
 .x1 {
   -webkit-animation: animateCloud 35s linear infinite;
@@ -81,7 +86,7 @@
 .cloud {
   background-image: url(../assets/cloud1.svg);
   background-repeat: no-repeat;
-  height: 150px;
+  height: 14vh;
   position: relative;
   width: 350px; }
 
@@ -98,11 +103,6 @@ html, body {
   overflow: hidden;
   animation: FadeIn 4s; }
 
-@keyframes FadeIn {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
 #background-wrap {
   height: 90vh; }
 
