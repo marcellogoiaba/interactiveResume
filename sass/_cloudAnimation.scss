@@ -13,18 +13,18 @@
     100% { margin-left: 100%; }
 }
 @-webkit-keyframes reversesAnimateCloud {
-    0% { margin-right: -400%;  }
-    100% { margin-right: 100%;  }
+	0% {margin-left: 1920px;  }
+    100% {  margin-left: -40%; }
 }
 
 @-moz-keyframes reverseAnimateCloud {
-    0% {margin-right: -400%;  }
-    100% {  margin-right: 100%; }
+    0% {margin-left: 1920px;  }
+    100% {  margin-left: -40%; }
 }
 
 @keyframes reverseAnimateCloud {
-    0% { margin-right: -400%; }
-    100% { margin-right: 100%; }
+    0% {margin-left: 1920px;  }
+    100% {  margin-left: -40%; }
 }
 
 /* ANIMATIONS */
@@ -40,13 +40,22 @@
 }
 
 .x2 {
-	-webkit-animation: reverseAnimateCloud 35s linear infinite;
-	-moz-animation: reverseAnimateCloud 35s linear infinite;
-	animation: reverseAnimateCloud 35s linear infinite;
+	-webkit-animation: reverseAnimateCloud 60s linear infinite;
+	-moz-animation: reverseAnimateCloud 60s linear infinite;
+	animation: reverseAnimateCloud 60s linear infinite;
 	
 	-webkit-transform: scale(0.6);
 	-moz-transform: scale(0.6);
 	transform: scale(0.6);
+}
+.x25 {
+	-webkit-animation: reverseAnimateCloud 100s linear infinite;
+	-moz-animation: reverseAnimateCloud 100s linear infinite;
+	animation: reverseAnimateCloud 100s linear infinite;
+	
+	-webkit-transform: scale(0.65);
+	-moz-transform: scale(0.65);
+	transform: scale(0.65);
 }
 
 .x3 {
