@@ -1,3 +1,6 @@
+@import './mixings';
+@import './cloudAnimation';
+
 html, body{
 	padding: 0;
 	margin: 0
@@ -9,33 +12,26 @@ html, body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
+	animation: FadeIn 4s;
 }
-.cloud1, .cloud2, .cloud3, .cloudbottom{
-	position: absolute;
+@keyframes FadeIn{
+	from { opacity: 0; }
+	to { opacity: 1; }
 }
-.cloud1{
-	top: -5vh;
-	img{
-		height: 28vh;
-	}
-}
-.cloud2{
-	top: 40vh;
-	img{
-		height: 17vh;
-	}
-}
-.cloud3{
-	top: 60vh;
-	img{
-		height: 19vh;
-	}
-}
+
+
 .cloudbottom{
-	bottom: -76px;
+	bottom: -70px;
 	width: 100%;
+	position: absolute;
 	img{
-		width: inherit;
-		opacity: .4;
+		width: 100%;
+		height: 140px;
+		opacity: .3;
+		transition: ease all .4s;
+	}
+	img:hover{
+		cursor: pointer;
+		opacity: .5;
 	}
 }

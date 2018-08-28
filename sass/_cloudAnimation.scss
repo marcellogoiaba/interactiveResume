@@ -1,0 +1,90 @@
+@-webkit-keyframes animateCloud {
+    0% { margin-left: -600px;  }
+    100% { margin-left: 100%;  }
+}
+
+@-moz-keyframes animateCloud {
+    0% {margin-left: -600px;  }
+    100% {  margin-left: 100%; }
+}
+
+@keyframes animateCloud {
+    0% { margin-left: -600px; }
+    100% { margin-left: 100%; }
+}
+@-webkit-keyframes reversesAnimateCloud {
+    0% { margin-right: -400%;  }
+    100% { margin-right: 100%;  }
+}
+
+@-moz-keyframes reverseAnimateCloud {
+    0% {margin-right: -400%;  }
+    100% {  margin-right: 100%; }
+}
+
+@keyframes reverseAnimateCloud {
+    0% { margin-right: -400%; }
+    100% { margin-right: 100%; }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+	-webkit-animation: animateCloud 35s linear infinite;
+	-moz-animation: animateCloud 35s linear infinite;
+	animation: animateCloud 35s linear infinite;
+	
+	-webkit-transform: scale(0.7);
+	-moz-transform: scale(0.7);
+	transform: scale(0.7);
+}
+
+.x2 {
+	-webkit-animation: reverseAnimateCloud 35s linear infinite;
+	-moz-animation: reverseAnimateCloud 35s linear infinite;
+	animation: reverseAnimateCloud 35s linear infinite;
+	
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	transform: scale(0.6);
+}
+
+.x3 {
+	-webkit-animation: animateCloud 45s linear infinite;
+	-moz-animation: animateCloud 45s linear infinite;
+	animation: animateCloud 45s linear infinite;
+	
+	-webkit-transform: scale(1.8);
+	-moz-transform: scale(1.8);
+	transform: scale(1.8);
+}
+
+.x4 {
+	-webkit-animation: animateCloud 40s linear infinite;
+	-moz-animation: animateCloud 40s linear infinite;
+	animation: animateCloud 40s linear infinite;
+	
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+.x5 {
+	-webkit-animation: animateCloud 25s linear infinite;
+	-moz-animation: animateCloud 25s linear infinite;
+	animation: animateCloud 25s linear infinite;
+	
+	-webkit-transform: scale(1.4);
+	-moz-transform: scale(1.4);
+	transform: scale(1.4);
+}
+
+/* OBJECTS */
+
+.cloud {
+	background-image: url(../assets/cloud1.svg);
+	background-repeat: no-repeat;
+	height: 150px;
+	position: relative;
+	width: 350px;
+}
