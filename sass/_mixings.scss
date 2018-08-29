@@ -3,3 +3,9 @@
     -moz-box-shadow: 0px 0px 38px -4px rgba(255,255,255,1);
     box-shadow: 0px 0px 38px -4px rgba(255,255,255,1);
 }
+
+@mixin addBoxShadow {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
