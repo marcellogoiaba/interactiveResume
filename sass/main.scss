@@ -8,8 +8,30 @@
 
 html, body{
 	padding: 0;
-	margin: 0
+	margin: 0;
+	color: $text;
 }
+section{
+	margin: 0;
+	padding: 0
+}
+ h1, h2, h3, h4, h5{
+	 font-family:  Montserrat-Thin;
+
+ }
+#title{
+	padding-top: 70px;
+	text-align: center;
+	font-size: 2.5em;
+	margin-top: 0;
+ }
+ .container{
+	 height: inherit;
+	 background: hsla(0, 0%, 100%, 0.37);
+	 width: 84%;
+	 margin: 0 auto;
+ }
+
 
 
 
