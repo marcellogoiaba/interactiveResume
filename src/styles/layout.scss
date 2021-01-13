@@ -1,0 +1,21 @@
+@import './variables';
+
+@font-face{
+    font-family: 'Baloon-medium';
+    src: url('../assets/fonts/BalooTammudu2-Medium.ttf') format('ttf');
+  }
+
+section{
+    height: 100vh;
+    width: 100%;
+    content: '';
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Baloon-medium', sans-serif;
+}
+
+.lighter-grey{
+    background: $lighter-medium-grey;
+}
