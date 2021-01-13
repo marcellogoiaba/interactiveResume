@@ -1,0 +1,18 @@
+@import '../../../styles/variables';
+
+.navbar{
+  background: $purple08;
+  border-bottom: 2px solid $purple;
+  .navbar-toggler{
+    color: $orange;
+  }
+  .nav-link{
+    color: $orange;
+    &:hover{
+      color: $pink;
+    }
+    &.active {
+      color: $yellow;
+    }
+  }
+}

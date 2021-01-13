@@ -1,0 +1,32 @@
+@import '../../../styles/variables';
+ 
+.half-top{
+  padding-top: 112px;
+  width: 100%;
+  background: linear-gradient(90deg, $medium-grey, $dark-grey);
+  content: '';
+  color: white
+}
+
+.mugshot{
+  img{
+    height: 300px ;
+  }
+}
+.content {
+  position: relative;
+  overflow: visible;
+  h1{
+    position: absolute;
+    font-size: 50px;
+    top: -1.25rem;
+    left: -1rem;
+    background-color: $yellow;
+    background-image: linear-gradient(45deg, $yellow, $pink);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+  }
+}
